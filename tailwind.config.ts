@@ -1,3 +1,4 @@
+import { Geist } from 'next/font/google';
 import type { Config } from "tailwindcss";
 
 export default {
@@ -9,8 +10,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        dark: "var(--dark)",
+        black: "var(--black)",
+        gray: "var(--gray)",
+        sage: "var(--sage)",
+        lightsage: "var(--lightsage)",
+        light: "var(--light)",
+        green: "var(--green)",
+        orange: "var(--orange)",
       },
     },
   },

@@ -1,21 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --dark: #0000009e;
+  --black: #1e201e;
+  --gray: #3c3d37;
+  --sage: #697565;
+  --lightsage: #87957d;
+  --green:rgb(90, 180, 103);
+  --light: #ecdfcc;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  font-family: Geist;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  padding: 10px;
+  color: var(--light);
+  background: var(--black);
   font-family: Arial, Helvetica, sans-serif;
 }
+
