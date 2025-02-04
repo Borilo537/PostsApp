@@ -17,7 +17,6 @@ export default {
         lightsage: "var(--lightsage)",
         light: "var(--light)",
         green: "var(--green)",
-        orange: "var(--orange)",
       },
     },
   },

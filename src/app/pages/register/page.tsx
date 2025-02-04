@@ -1,11 +1,22 @@
+"use client"
+
+import { useState } from "react";
 import LoginModal from "@/app/components/LoginModal";
-import Image from "next/image";
+import StatusBar from "@/app/components/Status";
 
 export default function Home() {
+  const [status, setStatus] = useState("Bem-vindo");
+
   return (
     <>
-      REGISTER
-      <LoginModal />
+      <StatusBar status={status} />
+<h1>REGISTER</h1>
+<h1>REGISTER</h1>
+<h1>REGISTER</h1>
+<h1>REGISTER</h1>
+<h1>REGISTER</h1>
+
+      <LoginModal setStatus={setStatus} />
     </>
   );
 }

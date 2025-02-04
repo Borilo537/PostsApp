@@ -70,10 +70,10 @@ export default function LoginModal({ setStatus }: LoginModalProps) {
           </div>
           <button
            onMouseEnter={() =>
-            setStatus("button for submission")
+            setStatus("submit button")
           }
             type="submit"
-            className="font-medium self-center mt-4 w-40 px-10 py-3 text-white bg-black text-base rounded-md hover:bg-green hover:w-64 transition-all"
+            className="font-medium mt-4 w-40 px-10 py-3 text-white bg-black text-base rounded-md hover:bg-green hover:w-60 transition-all"
           >
             Entrar
           </button>
